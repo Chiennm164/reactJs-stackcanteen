@@ -1,0 +1,38 @@
+@import 'normalize.css';
+@import url('https://api.fontshare.com/v2/css?f[]=general-sans@200,500,1,300,600,400,700&display=swap" rel="stylesheet');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color: red;
+    --color-yellow: #F5C031;
+
+    --height-header : 88px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'General Sans', sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+img{
+    max-width: none;
+}
