@@ -1,0 +1,20 @@
+#dish {
+              width: 100%;
+              .list-dish {
+                            background-color: #f7f7f7;
+                            .dish-item {
+                                          min-width: calc(100% / 3);
+                                          padding:2px 8px;
+                            }
+              }
+              .paging{
+                            padding: 10px 0 0 0;
+                            .paging-btn{
+                                          padding: 5px 12px;
+                                          margin: 0 6px;
+                                          border: 1px solid #ccc;
+                                          border-radius: 3px;
+                            }
+              }
+
+}

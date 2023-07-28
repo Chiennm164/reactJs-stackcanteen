@@ -3,6 +3,7 @@ import MyOrderPage from "../pages/MyOrderPage"
 import ProfilePage from "../pages/ProfilePage"
 import SupportPage from "../pages/SupportPage"
 import FeedBackPage from "../pages/FeedBackPage"
+import SettingPage from "../pages/SettingPage"
 import NotFound from "../pages/NotFound"
 const publicRoute: any[] = [
               {
@@ -28,6 +29,10 @@ const publicRoute: any[] = [
               {
                             path: '/feedback',
                             component: FeedBackPage
+              },
+              {
+                            path: '/setting',
+                            component: SettingPage
               },
               {
                             path: '*',

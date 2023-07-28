@@ -1,3 +1,23 @@
 {
-              "title": "Tiếng Việt"
+              "langvn": "Tiếng Việt",
+              "langeng": "Tiếng Anh",
+
+              "order": "Đặt Hàng",
+              "myOrder": "Đơn đặt",
+              "feedback": "Phản hồi",
+              "support": "Hỗ trợ",
+
+              "myAccount": "Tài khoản",
+              "setting": "Cài đặt",
+              "logout": "Đăng xuất",
+              "login": "Đăng nhập" ,
+
+              "lunch" :"Bữa trưa" ,
+              "dinner": "Bữa tối" ,
+              "breakfast" : "Bữa sáng",
+              "snacks" : "Bữa nhẹ",
+
+              "favorite":"Yêu thích",
+              "titleListDish" : "Hiển thị 27 món "
+
 }

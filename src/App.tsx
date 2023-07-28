@@ -1,8 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { publicRoute } from "./routes";
 import i18n from "i18next";
-
+import { LANGUAGEVALUE } from './core/constants';
+import { useTranslation } from 'react-i18next';
 function App() {
+
+  const { t } = useTranslation();
   const changeLanguage = (e: any) => {
     const languageValue = e.target.value
     i18n.changeLanguage(languageValue);
@@ -10,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <select onChange={changeLanguage}>
-        <option value="eng">English</option>
-        <option value="vie">Vietnamese</option>
+        <option value={LANGUAGEVALUE.ENG}>{t("langeng")}</option>
+        <option value={LANGUAGEVALUE.VN}>{t("langvn")}</option>
       </select>
 
       <Router>

@@ -1,14 +1,24 @@
-import { useTranslation } from 'react-i18next';
 
+// import { useTranslation } from 'react-i18next';
+
+import { OnlyHeaderLayout } from '../../components/layouts';
+import NavBar from './Navbar';
+import Carousel from './Carousel';
+import ListDish from './ListDish';
 function OrderPage() {
-              const { t } = useTranslation();
+              let choseCarousel= ""
+              function sendData(params: any) {
+                            console.log(params);
+
+                            choseCarousel= params?.value
+              }
               return (
-                            <div>
-                                          <h1> OrderPage</h1>
-                                          <h1> {t("title")}</h1>
+                            <OnlyHeaderLayout>
+                                          <NavBar choseCarousel={sendData} />
+                                          <Carousel dataChoseCarousel={choseCarousel} />
+                                          <ListDish />
 
-
-                            </div>
+                            </OnlyHeaderLayout>
               )
 }
-export default OrderPage
+export default OrderPage;

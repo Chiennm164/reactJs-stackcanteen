@@ -1,0 +1,30 @@
+#navbar {
+              border-top: 2px solid var(--color-gray);
+              border-bottom: 2px solid var(--color-gray);
+              color: var(--color-gray2);
+              .nav-item {
+                            .btn-nav {
+                                          background-color: var(--color-gray3);
+                                          color: var(--color-gray2);
+                                          &:hover {
+                                                        opacity: 0.8;
+                                          }
+
+                                          &:last-child {
+                                                        position: relative;
+                                                        &::before {
+                                                                      position: absolute;
+                                                                      content: "";
+                                                                      width: 1px;
+                                                                      height: 100%;
+                                                                      background-color: var(--color-gray3);
+                                                                      left: -5%;
+                                                        }
+                                          }
+                            }
+                            .btn-nav-active {
+                                          background-color: var(--color-yellow);
+                                          color: var(--color-white);
+                            }
+              }
+}

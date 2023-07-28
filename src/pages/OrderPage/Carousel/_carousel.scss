@@ -1,0 +1,26 @@
+#carousel {
+              .carousel-content {
+                            padding: 0 8px;
+                            .carousel-item {
+                                          width: 120px;
+                                          .img-wrap {
+                                                        border: 8px solid var(--color-gray);
+                                          }
+                                          &:hover .img-wrap {
+                                                        animation: spin 0.4s forwards;
+                                          }
+                            }
+              }
+}
+@keyframes spin {
+              from {
+                            border-color: var(--color-gray);
+              }
+              to {
+                            border-color: var(--color-yellow);
+              }
+}
+
+.carousel-item--active {
+              border-color: var(--color-yellow) !important;
+}

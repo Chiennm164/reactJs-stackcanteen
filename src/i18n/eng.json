@@ -1,3 +1,23 @@
 {
-              "title": "Tiếng Anh"
+              "langvn": "Vietnamese",
+              "langeng": "English",
+
+              "order": "Order",
+              "myOrder": "My Order",
+              "feedback": "Feed Back",
+              "support": "Support" ,
+
+              "myAccount": "My Account",
+              "setting": "Setting",
+              "logout": "Logout",
+              "login": "Login" ,
+
+              "lunch" :"Lunch" ,
+              "dinner": "Dinner" ,
+              "breakfast" : "Breakfast",
+              "snacks" : "Snacks",
+
+              "favorite":"Favorite",
+
+              "titleListDish" : "Show 27 "
 }
